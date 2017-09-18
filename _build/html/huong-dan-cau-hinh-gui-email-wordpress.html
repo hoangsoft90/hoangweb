@@ -1,0 +1,262 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Hướng dẫn cấu hình gửi email - Wordpress &mdash; Tài liệu hoangweb 1.0</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Tìm Kiếm" href="search.html"/>
+    <link rel="top" title="Tài liệu hoangweb 1.0" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> hoangweb
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Hướng dẫn cấu hình gửi email - Wordpress</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">hoangweb</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Hướng dẫn cấu hình gửi email - Wordpress</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/huong-dan-cau-hinh-gui-email-wordpress.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="huong-dan-cau-hinh-gui-email-wordpress">
+<h1>Hướng dẫn cấu hình gửi email - Wordpress<a class="headerlink" href="#huong-dan-cau-hinh-gui-email-wordpress" title="Permalink to this headline">¶</a></h1>
+<p><strong>Cấu hình gửi email</strong></p>
+<div class="line-block">
+<div class="line">Tại giao diện quản trị website, truy cập vào menu <strong>Settings -&gt; WP
+SMTP</strong>&nbsp;như hình sau: <img alt="wp smtp" class="inline-image" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5009176628/original/smtp-wp.jpg?1425354111" /></div>
+</div>
+<div class="line-block">
+<div class="line">Các bạn có thể sử dụng tài khoản
+yahoo, google, hotmail,..để miễn phí gửi email cho website của mình.
+&nbsp;Tuy nhiên,&nbsp;chúng tôi đề nghị các bạn sử dụng tài khoản yahoo, ngày
+nay google đã bảo mật đăng nhập sử dụng cho bên thứ ba do vậy cách đơn
+giản và dễ nhất là sử dụng Yahoo SMTP.</div>
+<div class="line">Tiếp theo, chúng ta điền thông tin Yahoo SMTP vào form: <img alt="image1" class="inline-image" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5009176781/original/screenshot-2.png?1425354397" /></div>
+</div>
+<p>Giải thích:</p>
+<ul class="simple">
+<li>From: địa chỉ yahoo mail của bạn.</li>
+<li>From Name: tên người gửi.</li>
+<li>SMTP Host: smtp.mail.yahoo.com</li>
+<li>SMTP Secure: SSL</li>
+<li>SMTP Port: 465</li>
+<li>SMTP Authentication: Yes</li>
+<li>Username: yahoo mail của bạn</li>
+<li>Password: mật khẩu đăng nhập yahoo</li>
+</ul>
+<div class="line-block">
+<div class="line">Nhấn nút <strong>Save Changes</strong> khi hoàn thành.</div>
+<div class="line"><strong>Kiểm tra hoạt động</strong>Giờ đến lúc bạn kiểm tra chức năng gửi mail có
+hoạt động hay không, bằng cách kéo xuống phía dưới bạn nhìn thấy form:
+<img alt="image2" class="inline-image" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5009176891/original/test-wp-smtp.jpg?1425354706" /></div>
+<div class="line">Điền địa chỉ email đến (To:), chủ đề (Subject:) và nội dung
+(Message:). Sau đó nhấn nút <strong>Send Test</strong> để bắt đầu gửi email, nếu
+thành công bạn sẽ nhận được thông báo: &quot;Message sent!&quot; xuất hiện ở bên
+trên.</div>
+<div class="line">Câu trả lời này có giúp ích cho bạn không? Yes NoSend feedback Sorry
+we couldn't be helpful. Help us improve this article with your
+feedback.</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, hoangweb.com@gmail.com.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
